@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #f6ad8b;
+    position: relative;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: #fff;
+}
+#nav h2{
+    font-weight: 400;
+    margin-left: 20px;
+}
+#nav button{
+ margin-right: 20px;
+ background-color: rgba(0, 0, 0, 0.37);
+ padding:8px 10px;
+ border: 1px solid;
+ border-radius: 20px;
+}
+#main video{
+    width: 370px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: #f6ad8b;
+}
+#lorem{
+    width: 260px;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: #fff;
+    padding: 10px 26px;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    border-radius: 20px;
+}
+#btm{
+    position: absolute;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 43%;
+    bottom: 2%;
+}
+#btm h3{
+   font-weight: 400;
+}
+#btm i{
+    font-size: 30px;
+    font-weight: 400;
+
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anim{
+    0%{
+        margin-bottom: 20px;
+    }
+    50%{
+        margin-bottom: 0%;
+    }
+    100%{
+        margin-bottom: 20px;
+    }
+    
+}
+#text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+#text h1{
+    font-size: 150px;
+    font-weight: 400;
+    color: #fff;
+}
+ 
